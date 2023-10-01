@@ -1,0 +1,113 @@
+.img-section {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+.overlay-section {
+  background-color: black;
+  position: fixed;
+  right: 0;
+  z-index: 12;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+  overflow: hidden;
+}
+.desc-section {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+.pattern {
+  /* float: right; */
+  position: fixed;
+}
+
+.page3 .description {
+  width: 70%;
+  margin: 35% 26%;
+}
+
+.page3 .description .sub-title {
+  font-family: Proxima-nova !important;
+  text-align: start;
+  width: 88%;
+  float: left;
+  font-weight: 300 !important;
+  margin-top: 2% !important;
+}
+
+.page3 .description .title {
+  text-align: start;
+  letter-spacing: 10px;
+}
+
+@media only screen and (min-width: 260px) and (max-width: 480px) {
+  .page3 .description {
+    width: 100%;
+    margin: 36% 5%;
+  }
+  .overlay-section {
+    display: none;
+  }
+  .page3 .description .title {
+    text-align: start;
+    letter-spacing: 5px;
+    font-size: 2rem;
+  }
+  .page3 .description .sub-title {
+    font-family: Proxima-nova !important;
+    text-align: start;
+    width: 90%;
+    padding-right: 10%;
+    float: left;
+    font-weight: 300;
+    /* margin-top: -30% !important; */
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .page3 .description {
+    width: 100%;
+    margin: 36% 5%;
+  }
+  .overlay-section {
+    display: none;
+  }
+  .page3 .description .title {
+    text-align: start;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+  }
+  .page3 .description .sub-title {
+    font-family: Proxima-nova !important;
+    text-align: start;
+    width: 90%;
+    padding-right: 10%;
+    float: left;
+    font-weight: 300 !important;
+    /* margin-top: -20% !important; */
+  }
+  .pattern {
+    /* float: right; */
+    position: fixed;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .overlay-section {
+    display: none;
+  }
+  .page3 .description .title {
+    text-align: start;
+    letter-spacing: 5px;
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .page3 .description .title {
+    text-align: start;
+    letter-spacing: 5px;
+    font-size: 3.2rem;
+  }
+}
+@media only screen and (min-width: 1201px) {
+}
