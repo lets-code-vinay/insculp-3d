@@ -7,15 +7,25 @@ import NorthOutlinedIcon from "@mui/icons-material/NorthOutlined";
 import SouthOutlinedIcon from "@mui/icons-material/SouthOutlined";
 import "./style.css";
 
-import ContactDialog from "../Dialog/Dialog"
+import ContactDialog from "../Dialog/Dialog";
 
 const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
+  const [open, setOpen] = React.useState(false);
+
   const handleDownArrow = () => {
     onDownArrow();
   };
 
   const handleUpArrow = () => {
     onUpArrow();
+  };
+
+  const handleOpenContact = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (value) => {
+    setOpen(false);
   };
   return (
     <Box className="footer">
@@ -70,10 +80,12 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
           className="title pointer no-grow letter-spacing"
           variant="h5"
           color={"primary"}
+          onClick={handleOpenContact}
         >
-          <ContactDialog />
+          Connect
         </Typography>
       </Box>
+      <ContactDialog open={open} onClose={handleClose} />
     </Box>
   );
 };
