@@ -3,7 +3,7 @@
   height: 100vh;
   width: 100%;
 }
-.overlay-section {
+.page3 .p3-overlay-section {
   background-color: black;
   position: fixed;
   right: 0;
@@ -12,7 +12,24 @@
   height: 100vh;
   opacity: 0.5;
   overflow: hidden;
+  animation: odd-overlay 1s ease-in-out 1;
 }
+
+@keyframes odd-overlay {
+  0% {
+    right: -10%;
+  }
+  33% {
+    right: 10%;
+  }
+  66% {
+    right: -50%;
+  }
+  100% {
+    right: 0%;
+  }
+}
+
 .desc-section {
   overflow: hidden;
   height: 100vh;
@@ -47,7 +64,7 @@
     width: 100%;
     margin: 36% 5%;
   }
-  .overlay-section {
+  .p3-overlay-section {
     display: none;
   }
   .page3 .description .title {
@@ -70,7 +87,7 @@
     width: 100%;
     margin: 36% 5%;
   }
-  .overlay-section {
+  .p3-overlay-section {
     display: none;
   }
   .page3 .description .title {
@@ -93,7 +110,7 @@
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .overlay-section {
+  .p3-overlay-section {
     display: none;
   }
   .page3 .description .title {

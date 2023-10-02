@@ -32,6 +32,17 @@
   align-items: center;
 }
 
+.arrow-container:hover .up-arrow {
+  border-top: 1px solid #8b99dd;
+  border-bottom: 1px solid #8b99dd;
+  border-left: 1px solid #8b99dd;
+}
+
+.arrow-container:hover .down-arrow {
+  border-top: 1px solid #8b99dd;
+  border-bottom: 1px solid #8b99dd;
+  border-right: 1px solid #8b99dd;
+}
 .no-grow {
   flex-grow: 1;
 }
