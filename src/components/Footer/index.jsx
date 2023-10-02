@@ -7,6 +7,8 @@ import NorthOutlinedIcon from "@mui/icons-material/NorthOutlined";
 import SouthOutlinedIcon from "@mui/icons-material/SouthOutlined";
 import "./style.css";
 
+import ContactDialog from "../Dialog/Dialog"
+
 const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
   const handleDownArrow = () => {
     onDownArrow();
@@ -69,7 +71,7 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
           variant="h5"
           color={"primary"}
         >
-          CONNECT
+          <ContactDialog />
         </Typography>
       </Box>
     </Box>
