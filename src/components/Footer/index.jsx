@@ -1,16 +1,15 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
-import FB_ICON from "../../assets/icons/fb.svg";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import NorthOutlinedIcon from "@mui/icons-material/NorthOutlined";
 import SouthOutlinedIcon from "@mui/icons-material/SouthOutlined";
+import FB_ICON from "../../assets/icons/fb.svg";
+import ContactPopover from "../ContactPopover";
 import "./style.css";
 
-import ContactDialog from "../Dialog/Dialog";
-
 const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
-  const [open, setOpen] = React.useState(false);
+  const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleDownArrow = () => {
     onDownArrow();
@@ -20,13 +19,14 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
     onUpArrow();
   };
 
-  const handleOpenContact = () => {
-    setOpen(true);
+  const handleOpenContact = (event) => {
+    setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = (value) => {
-    setOpen(false);
+  const handleClose = () => {
+    setAnchorEl(null);
   };
+
   return (
     <Box className="footer">
       <Box className="footer-container">
@@ -90,7 +90,8 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
           Connect
         </Typography>
       </Box>
-      <ContactDialog open={open} onClose={handleClose} />
+
+      <ContactPopover anchorEl={anchorEl} onClose={handleClose} />
     </Box>
   );
 };

@@ -1,0 +1,17 @@
+.popover-container > div {
+  background-color: transparent;
+  left: 84% !important;
+  width: 10%;
+  height: 50px;
+}
+
+.contact-icons-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-icons-container svg {
+  width: 5em !important;
+  height: 3em !important;
+}

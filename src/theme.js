@@ -6,6 +6,8 @@ const theme = createTheme({
     primary: { main: "#fffefe" },
     secondary: { main: "#0c2340" },
     disabled: { main: "#747575" },
+    whatsapp: { main: "#44C255" },
+    call: { main: "#747575" },
   },
   typography: {
     fontFamily: "Grand-wilson",
