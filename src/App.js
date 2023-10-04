@@ -1,6 +1,6 @@
+import { lazy } from "react";
 import "./App.css";
-import Homepage from "./pages/Homepage";
-import LandingPage from "./pages/LandingPage";
+const Homepage = lazy(() => import("./pages/Homepage"));
 
 function App() {
   return (

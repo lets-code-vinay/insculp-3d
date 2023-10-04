@@ -32,7 +32,7 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
       <Box className="footer-container">
         <Typography
           className="title pointer no-grow"
-          variant="h5"
+          variant="body1"
           color={"primary"}
         >
           {currentPage}
@@ -54,7 +54,11 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
               currentPageNo == 1 ? "default-cursor" : "pointer"
             }`}
           >
-            <IconButton onClick={handleUpArrow} disabled={currentPageNo == 1}>
+            <IconButton
+              onClick={handleUpArrow}
+              disabled={currentPageNo == 1}
+              className="arrow-btn"
+            >
               <NorthOutlinedIcon
                 color={currentPageNo == 1 ? "disabled" : "primary"}
               />
@@ -68,6 +72,7 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
             <IconButton
               onClick={handleDownArrow}
               disabled={currentPageNo == 10}
+              className="arrow-btn"
             >
               <SouthOutlinedIcon
                 color={currentPageNo == 10 ? "disabled" : "primary"}
@@ -77,7 +82,7 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
         </Box>
 
         <Typography
-          className="title pointer no-grow letter-spacing"
+          className="title pointer no-grow letter-spacing "
           variant="h5"
           color={"primary"}
           onClick={handleOpenContact}

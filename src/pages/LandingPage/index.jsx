@@ -1,25 +1,16 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Container,
-  Paper,
-  Box,
-} from "@mui/material";
+import { Typography, Box } from "@mui/material";
 import img1 from "../../assets/backgroundImages/img1.svg";
 import img2 from "../../assets/backgroundImages/img2.svg";
 import img3 from "../../assets/backgroundImages/img3.svg";
 import img4 from "../../assets/backgroundImages/img4.svg";
 import "./style.css";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 
 const LandingPage = () => {
   return (
     <>
       <Box className="landing-text">
-        <Typography className="intro-text" variant="h6" color={"primary"}>
+        <Typography className="intro-text" variant="h6body1" color={"primary"}>
           Crafting forms
         </Typography>
         <Typography className="bold-title" variant="h1" color={"primary"}>

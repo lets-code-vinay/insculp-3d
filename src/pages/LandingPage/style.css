@@ -28,22 +28,24 @@
   top: 27%;
   z-index: 45;
 }
-.intro-text {
+.landing-text .intro-text {
   font-weight: 400;
   font-size: 2rem;
   font-family: Proxima-nova !important;
   padding-top: 2%;
+  margin-left: 4%;
 }
 .bold-title {
   letter-spacing: 30px;
-  margin: 3% 0 1% 0 !important;
+  margin: 3% -3% 1% 0 !important;
   font-size: 3rem;
+  text-align: end;
+  font-weight: 400 !important;
 }
 
 .right-text {
   font-family: Proxima-nova !important;
   direction: rtl;
-  padding-right: 3%;
 }
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {

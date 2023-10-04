@@ -19,11 +19,15 @@
   height: 68px;
 }
 
-.title {
+.footer .title {
   text-align: center;
   vertical-align: middle;
   display: flex;
   align-items: center;
+  font-family: Grand-wilson;
+  font-size: 1.5rem;
+  letter-spacing: 6px;
+  font-size: 300;
 }
 
 .arrow-container {
@@ -54,11 +58,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: -3%;
 }
 
 .up-arrow {
-  height: 45px;
-  width: 36px;
+  height: 30px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,14 +71,16 @@
 }
 
 .down-arrow {
-  height: 45px;
-  width: 36px;
+  height: 30px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-left: 1px solid white;
 }
-
+.arrow-container .arrow-btn {
+  padding: 2px;
+}
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .footer .title {
     text-align: center;
