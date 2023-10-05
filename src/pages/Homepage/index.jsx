@@ -11,6 +11,7 @@ import Page7 from "../Page7";
 import Page8 from "../Page8";
 import Page9 from "../Page9";
 import Page10 from "../Page10";
+import { AnimatePresence } from "framer-motion";
 
 const Homepage = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -69,16 +70,18 @@ const Homepage = () => {
   return (
     <>
       <Header />
-      {currentPage == 1 && <LandingPage />}
-      {currentPage == 2 && <Page2 />}
-      {currentPage == 3 && <Page3 />}
-      {currentPage == 4 && <Page4 />}
-      {currentPage == 5 && <Page5 />}
-      {currentPage == 6 && <Page6 />}
-      {currentPage == 7 && <Page7 />}
-      {currentPage == 8 && <Page8 />}
-      {currentPage == 9 && <Page9 />}
-      {currentPage == 10 && <Page10 />}
+      <AnimatePresence>
+        {currentPage == 1 && <LandingPage />}
+        {currentPage == 2 && <Page2 />}
+        {currentPage == 3 && <Page3 />}
+        {currentPage == 4 && <Page4 />}
+        {currentPage == 5 && <Page5 />}
+        {currentPage == 6 && <Page6 />}
+        {currentPage == 7 && <Page7 />}
+        {currentPage == 8 && <Page8 />}
+        {currentPage == 9 && <Page9 />}
+        {currentPage == 10 && <Page10 />}
+      </AnimatePresence>
 
       <Footer
         currentPage={getPageNo()}

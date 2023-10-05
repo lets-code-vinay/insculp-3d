@@ -1,22 +1,20 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Container,
-  Paper,
-  Box,
-  Grid,
-} from "@mui/material";
+import { Typography, Box, Grid } from "@mui/material";
 import "./style.css";
 import PAGE_2_IMG from "../../assets/backgroundImages/page2.svg";
 import PATTERN_TOP from "../../assets/patterns/page2_top.svg";
 import PATTERN_BTM from "../../assets/patterns/page2_bottom.svg";
+import { motion } from "framer-motion";
 
 const Page2 = () => {
   return (
     <>
-      <Box className="page2">
+      <motion.div
+        initial={{ width: 0 }}
+        animate={{ width: "100%" }}
+        exit={{ width: window.innerWidth }}
+        className="page2"
+      >
         <Grid container>
           <Grid
             item
@@ -55,7 +53,7 @@ const Page2 = () => {
             <img src={PATTERN_BTM} alt="pattern_1" className="pattern-bottom" />
           </Grid>
         </Grid>
-      </Box>
+      </motion.div>
     </>
   );
 };
