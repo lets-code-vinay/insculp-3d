@@ -1,13 +1,6 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Container,
-  Paper,
-  Box,
-  Grid,
-} from "@mui/material";
+import { Typography, Box, Grid } from "@mui/material";
+
 import "./style.css";
 import PAGE_5_IMG from "../../assets/backgroundImages/page5.svg";
 import PATTERN from "../../assets/patterns/page5.svg";
