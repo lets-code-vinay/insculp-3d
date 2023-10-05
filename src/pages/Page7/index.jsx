@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Box, Grid } from "@mui/material";
 
 import "./style.css";
-import PAGE_7_IMG from "../../assets/backgroundImages/page7.svg";
+import PAGE_7_IMG from "../../assets/images/page7.png";
 import PATTERN from "../../assets/patterns/page7.svg";
 import { motion } from "framer-motion";
 
