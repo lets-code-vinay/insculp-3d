@@ -83,33 +83,63 @@
     font-size: 1.5rem;
   }
 }
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .page6 .description {
-    width: 100%;
-    margin: 36% 5%;
-  }
   .page6 .page-6-overlay {
     display: none;
   }
-  .page6 .description .title {
-    text-align: start;
-    letter-spacing: 5px;
-    font-size: 2.5rem;
+  .page6 .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
   }
+
   .page6 .description .sub-title {
     font-family: Proxima-nova !important;
     text-align: end;
-    width: 90%;
-    padding-right: 10%;
+    width: 82%;
     float: right;
     font-weight: 300 !important;
-    margin-top: -20% !important;
+    margin-top: 2%;
+    font-size: 1.8rem;
+  }
+
+  .page6 .description .title {
+    text-align: end;
+    letter-spacing: 10px;
+    float: right;
+    width: 81%;
+    font-size: 3rem;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .page6 .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+  }
+
+  .page6 .description .sub-title {
+    font-family: Proxima-nova !important;
+    text-align: end;
+    width: 82%;
+    float: right;
+    font-weight: 300 !important;
+    margin-top: 2%;
+    font-size: 1.8rem;
+  }
+
   .page6 .description .title {
-    text-align: start;
-    letter-spacing: 5px;
+    text-align: end;
+    letter-spacing: 10px;
+    float: right;
+    width: 81%;
     font-size: 3rem;
   }
 }

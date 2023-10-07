@@ -85,33 +85,64 @@
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .page2 .description {
-    width: 100%;
-    margin: 36% 5%;
-  }
   .page-2-overlay {
     display: none;
   }
-  .page2 .title {
-    text-align: start;
-    letter-spacing: 5px;
-    font-size: 1.8rem;
+  .page2 .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
   }
-  .page2 .sub-title {
+
+  .page2 .description .sub-title {
     font-family: Proxima-nova !important;
     text-align: end;
-    width: 90%;
-    padding-right: 10%;
+    width: 100%;
     float: right;
     font-weight: 300 !important;
-    margin-top: -20% !important;
+    font-size: 1rem;
+  }
+
+  .page2 .description .title {
+    text-align: end;
+    letter-spacing: 7px;
+    float: right;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .page2 .title {
-    text-align: start;
-    letter-spacing: 5px;
-    font-size: 2rem;
+  .page2 .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+  }
+
+  .page2 .description .sub-title {
+    font-family: Proxima-nova !important;
+    text-align: end;
+    width: 100%;
+    float: right;
+    font-weight: 300 !important;
+    font-size: 1.8rem;
+  }
+
+  .page2 .description .title {
+    text-align: end;
+    letter-spacing: 7px;
+    float: right;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 3rem;
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {

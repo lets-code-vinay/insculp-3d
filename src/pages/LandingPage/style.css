@@ -76,47 +76,72 @@
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+  .image-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .landing-text {
-    z-index: 3;
-    width: 80%;
-    height: 50vh;
-    position: fixed;
-    left: 10%;
-    top: 27%;
-    z-index: 45;
+    width: 90%;
+  }
+  .landing-text .intro-text {
+    font-family: Proxima-nova !important;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100%;
   }
   .landing-text .bold-title {
-    font-size: 3.2rem;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    font-size: 3rem;
+    margin: 2% 0;
   }
-  .right-text {
+
+  .landing-text .right-text {
     font-family: Proxima-nova !important;
-    padding-right: 8%;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    direction: rtl;
+    padding-right: 5%;
     font-size: 1rem;
-    text-align: start;
-    direction: ltr;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .image-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .landing-text {
-    z-index: 3;
     width: 90%;
-    height: 50vh;
-    position: fixed;
-    left: 2%;
-    top: 27%;
-    z-index: 45;
+    margin: auto;
+  }
+  .landing-text .intro-text {
+    font-family: Proxima-nova !important;
+    font-weight: 400;
+    font-size: 1.8rem;
+    width: 75%;
   }
   .landing-text .bold-title {
-    font-size: 5rem;
-    letter-spacing: 12px;
-    white-space: nowrap;
+    letter-spacing: 20px;
     width: 100%;
+    justify-content: end;
+    display: flex;
+    font-size: 3rem;
+    margin: 2% 0;
   }
-  .right-text {
+
+  .landing-text .right-text {
     font-family: Proxima-nova !important;
-    padding-right: 5%;
+    display: flex;
+    justify-content: start;
     width: 100%;
+    direction: rtl;
+    padding-right: 5%;
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
