@@ -41,13 +41,14 @@
   font-weight: 300 !important;
   margin-top: 2% !important;
   padding-right: 2%;
+  font-size: 1.2rem;
 }
 
 .page2 .description .title {
   text-align: end;
   letter-spacing: 10px;
   float: right;
-  width: 84%;
+  width: 100%;
   font-size: 2.5rem;
 }
 
