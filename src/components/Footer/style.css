@@ -14,19 +14,14 @@
   vertical-align: middle;
 }
 
-.logo {
-  width: 60px;
-  height: 68px;
-}
-
 .footer .title {
   text-align: center;
   vertical-align: middle;
   display: flex;
   align-items: center;
   font-family: Grand-wilson;
-  font-size: 1.5rem;
-  letter-spacing: 6px;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
   font-size: 300;
 }
 
@@ -34,6 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -0.5%;
 }
 
 .arrow-container:hover .up-arrow {
@@ -59,20 +55,21 @@
   align-items: center;
   justify-content: center;
   margin-left: -3%;
+  margin-top: -0.5%;
 }
 
-.up-arrow {
-  height: 30px;
-  width: 30px;
+.footer .up-arrow {
+  height: 20px;
+  width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-right: 1px solid white;
 }
 
-.down-arrow {
-  height: 30px;
-  width: 30px;
+.footer .down-arrow {
+  height: 18px !important;
+  width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,6 +78,12 @@
 .arrow-container .arrow-btn {
   padding: 2px;
 }
+
+.footer .down-arrow button svg,
+.footer .up-arrow button svg {
+  height: 18px !important;
+}
+
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .footer .title {
     text-align: center;
