@@ -3,8 +3,6 @@ import { Typography, Box, Grid } from "@mui/material";
 
 import "./style.css";
 import PAGE_IMG from "../../assets/images/page10.png";
-import PATTERN_TOP from "../../assets/patterns/page4_top.svg";
-import PATTERN_BTM from "../../assets/patterns/page4_bottom.svg";
 import { motion } from "framer-motion";
 
 const Page10 = () => {
@@ -38,8 +36,6 @@ const Page10 = () => {
               sx={{ backgroundColor: "secondary.main" }}
               className="desc-section"
             >
-              <img src={PATTERN_TOP} alt="pattern_1" className="pattern-top" />
-
               <Box className="description">
                 <Typography variant="h3" color={"primary"} className="title">
                   Custom billboards
@@ -54,12 +50,6 @@ const Page10 = () => {
                   and marketing needs of businesses.
                 </Typography>
               </Box>
-
-              <img
-                src={PATTERN_BTM}
-                alt="pattern_1"
-                className="pattern-bottom"
-              />
             </Grid>
           </Grid>
         </Box>

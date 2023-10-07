@@ -3,7 +3,6 @@ import { Typography, Box, Grid } from "@mui/material";
 
 import "./style.css";
 import PAGE_5_IMG from "../../assets/images/page5.png";
-import PATTERN from "../../assets/patterns/page5.svg";
 import { motion } from "framer-motion";
 
 const Page5 = () => {
@@ -25,8 +24,6 @@ const Page5 = () => {
               sx={{ backgroundColor: "secondary.main" }}
               className="desc-section"
             >
-              <img src={PATTERN} alt="pattern_1" className="pattern" />
-
               <Box className="description">
                 <Typography variant="h3" color={"primary"} className="title">
                   Custom 3d Wall murals

@@ -14,28 +14,14 @@
   overflow: hidden;
 }
 
-@keyframes odd-overlay {
-  0% {
-    right: -10%;
-  }
-  33% {
-    right: 10%;
-  }
-  66% {
-    right: -50%;
-  }
-  100% {
-    right: 0%;
-  }
-}
-.desc-section {
+.page5 .desc-section {
   overflow: hidden;
   height: 100vh;
   width: 100%;
-}
-.pattern {
-  /* float: right; */
-  position: fixed;
+  background-image: url("../../assets/patterns/page5-pattern.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page5 .description {

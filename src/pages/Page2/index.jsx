@@ -2,8 +2,6 @@ import React from "react";
 import { Typography, Box, Grid } from "@mui/material";
 import "./style.css";
 import PAGE_2_IMG from "../../assets/images/page2.png";
-import PATTERN_TOP from "../../assets/patterns/page2_top.svg";
-import PATTERN_BTM from "../../assets/patterns/page2_bottom.svg";
 import { motion } from "framer-motion";
 
 const Page2 = () => {
@@ -37,7 +35,7 @@ const Page2 = () => {
             sx={{ backgroundColor: "secondary.main" }}
             className="desc-section"
           >
-            <img src={PATTERN_TOP} alt="pattern_1" className="pattern-top" />
+            {/* <img src={PATTERN_TOP} alt="pattern_1" className="pattern-top" /> */}
 
             <Box className="description">
               <Typography variant="h3" color={"primary"} className="title">
@@ -50,7 +48,7 @@ const Page2 = () => {
               </Typography>
             </Box>
 
-            <img src={PATTERN_BTM} alt="pattern_1" className="pattern-bottom" />
+            {/* <img src={PATTERN_BTM} alt="pattern_1" className="pattern-bottom" /> */}
           </Grid>
         </Grid>
       </motion.div>

@@ -2,9 +2,6 @@ import React from "react";
 import { Typography, Box, Grid } from "@mui/material";
 
 import "./style.css";
-import PAGE_4_IMG from "../../assets/images/page4.svg";
-import PATTERN_TOP from "../../assets/patterns/page4_top.svg";
-import PATTERN_BTM from "../../assets/patterns/page4_bottom.svg";
 import { motion } from "framer-motion";
 
 const Page4 = () => {
@@ -43,8 +40,6 @@ const Page4 = () => {
               sx={{ backgroundColor: "secondary.main" }}
               className="desc-section"
             >
-              <img src={PATTERN_TOP} alt="pattern_1" className="pattern-top" />
-
               <Box className="description">
                 <Typography variant="h3" color={"primary"} className="title">
                   Customized interior elements
@@ -59,12 +54,6 @@ const Page4 = () => {
                   functional needs.
                 </Typography>
               </Box>
-
-              <img
-                src={PATTERN_BTM}
-                alt="pattern_1"
-                className="pattern-bottom"
-              />
             </Grid>
           </Grid>
         </Box>

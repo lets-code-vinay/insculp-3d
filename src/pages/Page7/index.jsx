@@ -3,7 +3,6 @@ import { Typography, Box, Grid } from "@mui/material";
 
 import "./style.css";
 import PAGE_7_IMG from "../../assets/images/page7.png";
-import PATTERN from "../../assets/patterns/page7.svg";
 import { motion } from "framer-motion";
 
 const Page7 = () => {
@@ -25,8 +24,6 @@ const Page7 = () => {
               sx={{ backgroundColor: "secondary.main" }}
               className="desc-section"
             >
-              <img src={PATTERN} alt="pattern_1" className="pattern" />
-
               <Box className="description">
                 <Typography variant="h3" color={"primary"} className="title">
                   outdoor urban installations

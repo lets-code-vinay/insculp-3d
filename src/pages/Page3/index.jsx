@@ -1,8 +1,6 @@
 import React from "react";
 import { Typography, Box, Grid } from "@mui/material";
 import "./style.css";
-import PAGE_2_IMG from "../../assets/images/page3.svg";
-import PATTERN from "../../assets/patterns/page3.svg";
 import { motion } from "framer-motion";
 
 const Page3 = () => {
@@ -24,8 +22,6 @@ const Page3 = () => {
               sx={{ backgroundColor: "secondary.main" }}
               className="desc-section"
             >
-              <img src={PATTERN} alt="pattern_1" className="pattern" />
-
               <Box className="description">
                 <Typography variant="h3" color={"primary"} className="title">
                   Architectural Facade

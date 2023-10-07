@@ -14,29 +14,14 @@
   overflow: hidden;
 }
 
-@keyframes overlay {
-  0% {
-    left: -10%;
-  }
-  33% {
-    left: 10%;
-  }
-  66% {
-    left: -50%;
-  }
-  100% {
-    left: 0%;
-  }
-}
-
-.desc-section {
+.page2 .desc-section {
   overflow: hidden;
   height: 100vh;
   width: 100%;
-}
-.page2 .pattern-top {
-  float: right;
-  margin-top: -15%;
+  background-image: url("../../assets/patterns/pag2-pattern.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page2 .description {

@@ -2,9 +2,6 @@ import React from "react";
 import { Typography, Box, Grid } from "@mui/material";
 
 import "./style.css";
-import PAGE_IMG from "../../assets/images/page8.svg";
-import PATTERN_TOP from "../../assets/patterns/page4_top.svg";
-import PATTERN_BTM from "../../assets/patterns/page4_bottom.svg";
 import { motion } from "framer-motion";
 
 const Page8 = () => {
@@ -43,8 +40,6 @@ const Page8 = () => {
               sx={{ backgroundColor: "secondary.main" }}
               className="desc-section"
             >
-              <img src={PATTERN_TOP} alt="pattern_1" className="pattern-top" />
-
               <Box className="description">
                 <Typography variant="h3" color={"primary"} className="title">
                   Retail Display
@@ -60,12 +55,6 @@ const Page8 = () => {
                   aesthetics in retail environments.
                 </Typography>
               </Box>
-
-              <img
-                src={PATTERN_BTM}
-                alt="pattern_1"
-                className="pattern-bottom"
-              />
             </Grid>
           </Grid>
         </Box>

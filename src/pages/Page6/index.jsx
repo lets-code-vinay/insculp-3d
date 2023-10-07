@@ -3,8 +3,6 @@ import { Typography, Box, Grid } from "@mui/material";
 
 import "./style.css";
 import PAGE_6_IMG from "../../assets/images/page6.png";
-import PATTERN_TOP from "../../assets/patterns/page2_top.svg";
-import PATTERN_BTM from "../../assets/patterns/page2_bottom.svg";
 import { motion } from "framer-motion";
 
 const Page6 = () => {
@@ -38,8 +36,6 @@ const Page6 = () => {
               sx={{ backgroundColor: "secondary.main" }}
               className="desc-section"
             >
-              <img src={PATTERN_TOP} alt="pattern_1" className="pattern-top" />
-
               <Box className="description">
                 <Typography variant="h3" color={"primary"} className="title">
                   Figurative sculptural art works
@@ -55,12 +51,6 @@ const Page6 = () => {
                   precision and intricate detailing.
                 </Typography>
               </Box>
-
-              <img
-                src={PATTERN_BTM}
-                alt="pattern_1"
-                className="pattern-bottom"
-              />
             </Grid>
           </Grid>
         </Box>
