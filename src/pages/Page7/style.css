@@ -73,12 +73,12 @@
     float: right;
     font-weight: 300 !important;
     margin-top: 2% !important;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .page7 .description .title {
     text-align: start;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     float: left;
     width: 84%;
     font-size: 1.5rem;
