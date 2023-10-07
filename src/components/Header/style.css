@@ -3,13 +3,14 @@
   margin: auto;
   position: fixed;
   top: 5%;
-  left: 5%;
+  left: 3.5%;
   z-index: 99;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
   vertical-align: middle;
 }

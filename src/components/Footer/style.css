@@ -44,10 +44,10 @@
   border-right: 1px solid #8b99dd;
 }
 .no-grow {
-  flex-grow: 1;
+  flex-grow: 2;
 }
 .flex-grow {
-  flex-grow: 4;
+  flex-grow: 5;
 }
 
 .icons {
