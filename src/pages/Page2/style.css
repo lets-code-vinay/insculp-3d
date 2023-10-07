@@ -25,14 +25,18 @@
 }
 
 .page2 .description {
-  width: 70%;
-  margin: 35% 26%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 90%;
 }
 
 .page2 .description .sub-title {
   font-family: Proxima-nova !important;
   text-align: end;
-  width: 75%;
+  width: 77%;
   float: right;
   font-weight: 300 !important;
   margin-top: 2% !important;
@@ -42,11 +46,7 @@
   text-align: end;
   letter-spacing: 10px;
   float: right;
-}
-
-.page2 .pattern-bottom {
-  float: left;
-  margin-top: -2%;
+  width: 90%;
 }
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
