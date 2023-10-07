@@ -66,10 +66,10 @@
   .page4 .page-4-overlay {
     display: none;
   }
-  .title {
+  .page4 .title {
     text-align: start;
     letter-spacing: 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .sub-title {
     font-family: Proxima-nova !important;
@@ -89,12 +89,12 @@
   .page4 .page-4-overlay {
     display: none;
   }
-  .title {
+  .page4 .title {
     text-align: start;
     letter-spacing: 5px;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
-  .sub-title {
+  .page4 .sub-title {
     font-family: Proxima-nova !important;
     text-align: end;
     width: 90%;
@@ -105,17 +105,17 @@
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .title {
+  .page4 .title {
     text-align: start;
     letter-spacing: 5px;
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  .title {
+  .page4 .title {
     text-align: start;
     letter-spacing: 5px;
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 1201px) {
