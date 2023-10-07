@@ -52,26 +52,35 @@
 }
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
-  .page5 .description {
-    width: 100%;
-    margin: 36% 5%;
-  }
   .page5 .p5-overlay-section {
     display: none;
   }
-  .page5 .title {
-    text-align: start;
-    letter-spacing: 5px;
-    font-size: 2rem;
-    width: 84%;
+
+  .page5 .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
   }
-  .page5 .sub-title {
+
+  .page5 .description .sub-title {
     font-family: Proxima-nova !important;
-    text-align: start;
+    text-align: end;
+    width: 82%;
+    float: right;
+    font-weight: 300 !important;
+    margin-top: 2% !important;
+    font-size: 1rem;
+  }
+
+  .page5 .description .title {
+    text-align: end;
+    letter-spacing: 10px;
+    float: right;
     width: 84%;
-    padding-right: 10%;
-    font-weight: 300;
-    /* margin-top: -30% !important; */
+    font-size: 1.5rem;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
