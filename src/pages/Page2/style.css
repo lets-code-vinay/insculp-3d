@@ -40,6 +40,7 @@
   float: right;
   font-weight: 300 !important;
   margin-top: 2% !important;
+  padding-right: 2%;
 }
 
 .page2 .description .title {
@@ -47,7 +48,7 @@
   letter-spacing: 10px;
   float: right;
   width: 84%;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
