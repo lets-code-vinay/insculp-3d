@@ -2,6 +2,10 @@
   overflow: hidden;
   height: 100vh;
   width: 100%;
+  background-image: url("../../assets/images/page4.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .page4 .page-4-overlay {
   background-color: black;

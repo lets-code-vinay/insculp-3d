@@ -25,9 +25,14 @@ const Page8 = () => {
               lg={6}
               className="page-8-overlay"
             ></Grid>
-            <Grid item xs={12} sm={12} md={6} lg={6} className="img-section">
-              <img className="w100" src={PAGE_IMG} alt="page 2" />
-            </Grid>
+            <Grid
+              item
+              xs={12}
+              sm={12}
+              md={6}
+              lg={6}
+              className="img-section"
+            ></Grid>
 
             <Grid
               item
