@@ -29,23 +29,28 @@
 }
 
 .page4 .description {
-  width: 70%;
-  margin: 35% 26%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 90%;
 }
 
 .page4 .description .sub-title {
   font-family: Proxima-nova !important;
   text-align: end;
-  width: 85%;
+  width: 77%;
+  float: right;
   font-weight: 300 !important;
   margin-top: 2% !important;
-  float: right;
 }
 
 .page4 .description .title {
   text-align: end;
   letter-spacing: 10px;
-  float: "right";
+  float: right;
+  width: 90%;
 }
 
 .pattern-bottom {
