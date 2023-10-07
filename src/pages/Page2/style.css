@@ -36,7 +36,7 @@
 .page2 .description .sub-title {
   font-family: Proxima-nova !important;
   text-align: end;
-  width: 77%;
+  width: 82%;
   float: right;
   font-weight: 300 !important;
   margin-top: 2% !important;
@@ -46,7 +46,7 @@
   text-align: end;
   letter-spacing: 10px;
   float: right;
-  width: 90%;
+  width: 84%;
 }
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
