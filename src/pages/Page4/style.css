@@ -53,11 +53,6 @@
   width: 84%;
 }
 
-.pattern-bottom {
-  float: left;
-  margin-top: -26%;
-}
-
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .page4 .description {
     width: 100%;
@@ -71,7 +66,7 @@
     letter-spacing: 5px;
     font-size: 1.5rem;
   }
-  .sub-title {
+  .page4 .sub-title {
     font-family: Proxima-nova !important;
     text-align: end;
     width: 90%;
