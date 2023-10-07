@@ -56,15 +56,17 @@
   .page5 .p5-overlay-section {
     display: none;
   }
-  .title {
+  .page5 .title {
     text-align: start;
     letter-spacing: 5px;
     font-size: 2rem;
+    width: 84%;
   }
-  .sub-title {
+  .page5 .sub-title {
     font-family: Proxima-nova !important;
     text-align: end;
-    width: 90%;
+    width: 84%;
+
     padding-right: 10%;
     float: right;
     font-weight: 300;
