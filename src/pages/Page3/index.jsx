@@ -50,7 +50,7 @@ const Page3 = () => {
               className="p3-overlay-section"
             ></Grid>
             <Grid item xs={12} sm={12} md={6} lg={6} className="img-section">
-              <img src={PAGE_2_IMG} alt="page 2" />
+              <img className="w100" src={PAGE_2_IMG} alt="page 2" />
             </Grid>
           </Grid>
         </Box>

@@ -15,6 +15,10 @@ body {
 .letter-spacing {
   letter-spacing: 8px;
 }
+.w100 {
+  width: 100% !important;
+  height: 100vh !important;
+}
 
 @font-face {
   font-family: Grand-wilson;

@@ -26,7 +26,7 @@ const Page10 = () => {
               className="page-10-overlay"
             ></Grid>
             <Grid item xs={12} sm={12} md={6} lg={6} className="img-section">
-              <img src={PAGE_IMG} alt="page 2" />
+              <img className="w100" src={PAGE_IMG} alt="page 2" />
             </Grid>
 
             <Grid
