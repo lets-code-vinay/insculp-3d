@@ -59,7 +59,6 @@
 }
 
 .footer .up-arrow {
-  height: 20px;
   width: 24px;
   display: flex;
   align-items: center;
@@ -68,7 +67,6 @@
 }
 
 .footer .down-arrow {
-  height: 18px !important;
   width: 24px;
   display: flex;
   align-items: center;
@@ -95,7 +93,11 @@
   .arrow-container {
     position: fixed;
     bottom: 9%;
-    right: 2%;
+    right: 6%;
+  }
+
+  .arrow-container {
+    /* display: none; */
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
