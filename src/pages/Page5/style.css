@@ -48,6 +48,8 @@
   float: right;
   width: 84%;
 }
+
+
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .page5 .description {
     width: 100%;
@@ -64,11 +66,9 @@
   }
   .page5 .sub-title {
     font-family: Proxima-nova !important;
-    text-align: end;
+    text-align: start;
     width: 84%;
-
     padding-right: 10%;
-    float: right;
     font-weight: 300;
     /* margin-top: -30% !important; */
   }
