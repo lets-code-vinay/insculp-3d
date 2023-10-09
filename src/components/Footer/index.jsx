@@ -4,6 +4,8 @@ import IconButton from "@mui/material/IconButton";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import NorthOutlinedIcon from "@mui/icons-material/NorthOutlined";
 import SouthOutlinedIcon from "@mui/icons-material/SouthOutlined";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import FB_ICON from "../../assets/icons/fb.svg";
 import ContactPopover from "../ContactPopover";
 import "./style.css";
@@ -82,13 +84,47 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
         </Box>
 
         <Typography
-          className="title pointer no-grow letter-spacing "
+          className="title pointer no-grow letter-spacing connect"
           variant="h5"
           color={"primary"}
           onClick={handleOpenContact}
         >
           Connect
         </Typography>
+      </Box>
+
+      {/* ---Mobile view -- */}
+      <Box className="mobile-arrow-container">
+        <Box
+          className={`back-arrow ${
+            currentPageNo == 1 ? "default-cursor" : "pointer"
+          }`}
+        >
+          <IconButton
+            onClick={handleUpArrow}
+            disabled={currentPageNo == 1}
+            className="arrow-btn"
+          >
+            <ArrowBackIcon
+              color={currentPageNo == 1 ? "disabled" : "primary"}
+            />
+          </IconButton>
+        </Box>
+        <Box
+          className={`next-arrow ${
+            currentPageNo == 10 ? "default-cursor" : "pointer"
+          }`}
+        >
+          <IconButton
+            onClick={handleDownArrow}
+            disabled={currentPageNo == 10}
+            className="arrow-btn"
+          >
+            <ArrowForwardIcon
+              color={currentPageNo == 10 ? "disabled" : "primary"}
+            />
+          </IconButton>
+        </Box>
       </Box>
 
       <ContactPopover anchorEl={anchorEl} onClose={handleClose} />

@@ -17,6 +17,7 @@ import "./style.css";
 
 const Homepage = () => {
   const [currentPage, setCurrentPage] = useState(1);
+  const [touchPosition, setTouchPosition] = useState(null);
 
   const totalPage = 10;
 
@@ -80,9 +81,51 @@ const Homepage = () => {
     }
   };
 
+  /**
+   * @description getting touch point on phone
+   * @param {Event} e
+   */
+  const handleTouchStart = (e) => {
+    const touchDown = e.touches[0].clientX;
+    setTouchPosition(touchDown);
+  };
+
+  /**
+   * @description checking is left slide or right slide
+   * @param {Event} e
+   * @returns
+   */
+  const handleTouchMove = (e) => {
+    const touchDown = touchPosition;
+    if (touchDown === null) {
+      return;
+    }
+
+    const currentTouch = e.touches[0].clientX;
+    const diff = touchDown - currentTouch;
+
+    if (diff > 5) {
+      if (currentPage == totalPage) return true;
+
+      setCurrentPage(currentPage + 1);
+    }
+
+    if (diff < -5) {
+      if (currentPage == 1) return true;
+      setCurrentPage(currentPage - 1);
+    }
+
+    setTouchPosition(null);
+  };
+
   return (
     <>
-      <Box onWheel={handleScroll} className="homepage-container">
+      <Box
+        onWheel={handleScroll}
+        className="homepage-container"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+      >
         <Header />
         <AnimatePresence>
           {currentPage == 1 && <LandingPage />}

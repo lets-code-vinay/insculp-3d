@@ -16,6 +16,9 @@
   width: fit-content;
   margin: auto;
 }
+.landing-text-mobile {
+  display: none;
+}
 
 .landing-text .intro-text {
   font-family: Proxima-nova !important;
@@ -43,35 +46,46 @@
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .image-container {
+    background-image: url("../../assets/images/lp-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 60vh;
+    width: 100%;
   }
   .landing-text {
-    width: 90%;
-  }
-  .landing-text .intro-text {
-    font-family: Proxima-nova !important;
-    font-weight: 400;
-    font-size: 1rem;
-    width: 100%;
-  }
-  .landing-text .bold-title {
-    letter-spacing: 15px;
-    width: 100%;
-    justify-content: end;
-    display: flex;
-    font-size: 3rem;
-    margin: 2% 0;
+    display: none;
   }
 
-  .landing-text .right-text {
-    font-family: Proxima-nova !important;
-    display: flex;
-    justify-content: start;
+  .landing-text-mobile {
+    display: inline-block;
     width: 100%;
-    direction: rtl;
-    padding-right: 5%;
+    height: 40vh;
+  }
+
+  .landing-text-mobile .intro-text {
+    font-family: Proxima-nova !important;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: #c4c4c4;
+    padding-top: 12%;
+  }
+  .landing-text-mobile .bold-title {
+    width: 100%;
+    margin: 2% 0;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.36em;
+    text-align: center;
+  }
+
+  .landing-text-mobile .right-text {
+    font-family: Proxima-nova !important;
+    width: 80%;
+    margin: auto;
+    text-align: center;
     font-size: 1rem;
   }
 }
