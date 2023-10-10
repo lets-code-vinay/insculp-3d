@@ -57,6 +57,18 @@ const Page8 = () => {
               </Box>
             </Grid>
           </Grid>
+
+          <Box className="mobile-view-description">
+            <Typography variant="h3" color={"primary"} className="title">
+              Retail Display
+            </Typography>
+            <Typography variant="h5" color={"primary"} className="sub-title">
+              Offering custom, eye-catching product showcases and promotional
+              fixtures using additive manufacturing technology. These displays
+              are designed to enhance product visibility and aesthetics in
+              retail environments.
+            </Typography>
+          </Box>
         </Box>
       </motion.div>
     </>

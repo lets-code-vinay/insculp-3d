@@ -53,6 +53,17 @@ const Page9 = () => {
               <img className="w100" src={PAGE_IMG} alt="page 2" />
             </Grid>
           </Grid>
+
+          <Box className="mobile-view-description">
+            <Typography variant="h3" color={"primary"} className="title">
+              signage display
+            </Typography>
+            <Typography variant="h5" color={"primary"} className="sub-title">
+              Offering customized and visually appealing signs and displays
+              using three-dimensional printing technology, catering to the
+              specific branding and marketing needs of businesses and events.
+            </Typography>
+          </Box>
         </Box>
       </motion.div>
     </>

@@ -52,36 +52,57 @@
   font-size: 2.5rem;
 }
 
+.page2 .mobile-view {
+  display: none;
+}
+
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .page-2-overlay {
     display: none;
   }
-  .page2 .description {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 90%;
-    margin: auto;
+
+  .page2 .img-section img {
+    display: none;
   }
 
-  .page2 .description .sub-title {
+  .page2 .img-section {
+    background-image: url("../../assets/images/p2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+  }
+  .page2 .desc-section {
+    display: none;
+  }
+
+  .page2 .mobile-view-description {
+    display: inline-block;
+    width: 100%;
+    height: 40vh;
+    background-image: url("../../assets/patterns/mobile-patter-lower.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+  }
+  .page2 .mobile-view-description .sub-title {
     font-family: Proxima-nova !important;
     text-align: end;
-    width: 100%;
-    float: right;
+    width: 87%;
     font-weight: 300 !important;
     font-size: 1rem;
+    margin: auto;
+    padding-top: 4%;
   }
 
-  .page2 .description .title {
+  .page2 .mobile-view-description .title {
     text-align: end;
     letter-spacing: 7px;
-    float: right;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     font-size: 1.3rem;
+    padding-top: 18%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {

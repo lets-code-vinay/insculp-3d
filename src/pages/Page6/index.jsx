@@ -53,6 +53,18 @@ const Page6 = () => {
               </Box>
             </Grid>
           </Grid>
+
+          <Box className="mobile-view-description">
+            <Typography variant="h3" color={"primary"} className="title">
+              Figurative sculptural art works
+            </Typography>
+            <Typography variant="h5" color={"primary"} className="sub-title">
+              Offering customized creation of three-dimensional sculptures that
+              depict realistic or representational human figures or objects
+              using advanced 3D printing technology, allowing for precision and
+              intricate detailing.
+            </Typography>
+          </Box>
         </Box>
       </motion.div>
     </>

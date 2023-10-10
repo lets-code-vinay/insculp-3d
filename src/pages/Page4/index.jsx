@@ -56,6 +56,17 @@ const Page4 = () => {
               </Box>
             </Grid>
           </Grid>
+
+          <Box className="mobile-view-description">
+            <Typography variant="h3" color={"primary"} className="title">
+              Customized interior elements
+            </Typography>
+            <Typography variant="h5" color={"primary"} className="sub-title">
+              Offering service which allows you to have unique and bespoke
+              interior pieces that align with your specific aesthetic and
+              functional needs.
+            </Typography>
+          </Box>
         </Box>
       </motion.div>
     </>

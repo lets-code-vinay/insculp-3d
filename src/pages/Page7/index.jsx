@@ -54,6 +54,19 @@ const Page7 = () => {
               <img className="w100" src={PAGE_7_IMG} alt="page 2" />
             </Grid>
           </Grid>
+
+          <Box className="mobile-view-description">
+            <Typography variant="h3" color={"primary"} className="title">
+              outdoor urban installations
+            </Typography>
+            <Typography variant="h5" color={"primary"} className="sub-title">
+              Offering creation and installation of large-scale, durable 3D
+              printed structures, sculptures, or functional objects for public
+              spaces in urban environments. These installations are designed to
+              withstand outdoor conditions and enhance the aesthetic and
+              functional aspects of the urban landscape.
+            </Typography>
+          </Box>
         </Box>
       </motion.div>
     </>

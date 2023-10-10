@@ -61,32 +61,48 @@
     display: none;
   }
 
-  .page3 .description {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 75%;
-    margin: auto;
+  .page3 .img-section img {
+    display: none;
   }
 
-  .page3 .description .sub-title {
+  .page3 .img-section {
+    background-image: url("../../assets/images/p3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+  }
+  .page3 .desc-section {
+    display: none;
+  }
+
+  .page3 .mobile-view-description {
+    display: inline-block;
+    width: 100%;
+    height: 40vh;
+    background-image: url("../../assets/patterns/mobile-patter-lower.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+  }
+  .page3 .mobile-view-description .sub-title {
     font-family: Proxima-nova !important;
     text-align: start;
-    width: 88%;
-    float: left;
+    width: 90%;
     font-weight: 300 !important;
-    margin-top: 2% !important;
-    width: 100%;
     font-size: 1rem;
+    margin: auto;
+    padding-top: 4%;
   }
 
-  .page3 .description .title {
+  .page3 .mobile-view-description .title {
     text-align: start;
     letter-spacing: 7px;
+    width: 90%;
+    margin: 0 auto;
     font-size: 1.3rem;
-    width: 100%;
+    padding-top: 18%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {

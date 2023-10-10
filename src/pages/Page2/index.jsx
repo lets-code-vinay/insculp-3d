@@ -35,8 +35,6 @@ const Page2 = () => {
             sx={{ backgroundColor: "secondary.main" }}
             className="desc-section"
           >
-            {/* <img src={PATTERN_TOP} alt="pattern_1" className="pattern-top" /> */}
-
             <Box className="description">
               <Typography variant="h3" color={"primary"} className="title">
                 Architectural Ceiling
@@ -47,9 +45,18 @@ const Page2 = () => {
                 projects.
               </Typography>
             </Box>
-
-            {/* <img src={PATTERN_BTM} alt="pattern_1" className="pattern-bottom" /> */}
           </Grid>
+
+          <Box className="mobile-view-description">
+            <Typography variant="h3" color={"primary"} className="title">
+              Architectural Ceiling
+            </Typography>
+            <Typography variant="h5" color={"primary"} className="sub-title">
+              Offering customized design & fabrication of intricate & unique
+              ceiling components using advanced 3D printing for architectural
+              projects.
+            </Typography>
+          </Box>
         </Grid>
       </motion.div>
     </>

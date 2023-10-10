@@ -54,6 +54,16 @@ const Page3 = () => {
               className="img-section"
             ></Grid>
           </Grid>
+
+          <Box className="mobile-view-description">
+            <Typography variant="h3" color={"primary"} className="title">
+              Architectural Facade
+            </Typography>
+            <Typography variant="h5" color={"primary"} className="sub-title">
+              Offering customized, intricate facades and cladding elements for
+              buildings, enhancing aesthetics and design flexibility.
+            </Typography>
+          </Box>
         </Box>
       </motion.div>
     </>

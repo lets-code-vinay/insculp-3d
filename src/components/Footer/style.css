@@ -88,7 +88,7 @@
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .footer {
-    width: 100%;
+    width: 97%;
     position: fixed;
     bottom: 7%;
     left: 4%;
@@ -110,7 +110,7 @@
   .footer .mobile-arrow-container {
     display: flex !important;
     justify-content: space-between;
-    margin-top: -82%;
+    margin-top: -90%;
     width: 94%;
   }
 
@@ -132,7 +132,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    margin-right: 5%;
+    margin-right: 6%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {

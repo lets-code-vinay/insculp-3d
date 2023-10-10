@@ -53,6 +53,17 @@ const Page5 = () => {
               <img className="w100" src={PAGE_5_IMG} alt="page 2" />
             </Grid>
           </Grid>
+
+          <Box className="mobile-view-description">
+            <Typography variant="h3" color={"primary"} className="title">
+              Custom 3d Wall murals
+            </Typography>
+            <Typography variant="h5" color={"primary"} className="sub-title">
+              Offering customized , three-dimensional wall decorations or
+              designs that are tailored to the your preferences and can
+              transform plain walls into visually striking and unique features.
+            </Typography>
+          </Box>
         </Box>
       </motion.div>
     </>
