@@ -50,6 +50,9 @@
   width: 84%;
   font-size: 2.5rem;
 }
+.page9 .mobile-view-description {
+  display: none;
+}
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .page9 .p9-overlay-section {

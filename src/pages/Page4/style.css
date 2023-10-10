@@ -54,6 +54,9 @@
   width: 84%;
   font-size: 2rem;
 }
+.page4 .mobile-view-description {
+  display: none;
+}
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .page4 .page-4-overlay {

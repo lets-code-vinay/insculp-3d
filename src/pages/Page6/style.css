@@ -50,6 +50,9 @@
   width: 74%;
   font-size: 2.5rem;
 }
+.page6 .mobile-view-description {
+  display: none;
+}
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .page6 .page-6-overlay {
