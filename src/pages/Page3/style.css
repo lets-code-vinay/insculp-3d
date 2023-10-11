@@ -47,6 +47,7 @@
   margin-top: 2% !important;
   width: 100%;
   font-size: 1.2rem;
+  color: #c4c4c4;
 }
 
 .page3 .description .title {
@@ -70,7 +71,7 @@
   }
 
   .page3 .img-section {
-    background-image: url("../../assets/images/p3.jpg");
+    background-image: url("../../assets/images/p3.svg");
     background-position: center;
     background-repeat: no-repeat;
     height: 60vh;
@@ -98,6 +99,7 @@
     font-size: 1rem;
     margin: auto;
     padding-top: 4%;
+    color: #c4c4c4;
   }
 
   .page3 .mobile-view-description .title {

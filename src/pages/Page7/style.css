@@ -42,6 +42,7 @@
   font-weight: 300 !important;
   margin-top: 2% !important;
   font-size: 1.2rem;
+  color: #c4c4c4;
 }
 
 .page7 .description .title {
@@ -65,7 +66,7 @@
   }
 
   .page7 .img-section {
-    background-image: url("../../assets/images/p7.jpg");
+    background-image: url("../../assets/images/p7.svg");
     background-position: center;
     background-repeat: no-repeat;
     height: 60vh;
@@ -93,6 +94,7 @@
     font-size: 1rem;
     margin: auto;
     padding-top: 4%;
+    color: #c4c4c4;
 
     display: -webkit-box;
     -webkit-box-orient: vertical;

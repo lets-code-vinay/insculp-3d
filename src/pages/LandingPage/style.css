@@ -25,6 +25,7 @@
   font-weight: 400;
   font-size: 2rem;
   width: 100%;
+  color: #c4c4c4;
 }
 .landing-text .bold-title {
   letter-spacing: 30px;
@@ -42,11 +43,12 @@
   width: 100%;
   direction: rtl;
   padding-right: 5%;
+  color: #c4c4c4;
 }
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .image-container {
-    background-image: url("../../assets/images/lp-1.jpg");
+    background-image: url("../../assets/images/lp-1.svg");
     background-position: center;
     background-repeat: no-repeat;
     height: 60vh;
@@ -69,7 +71,7 @@
 
   .landing-text-mobile .intro-text {
     font-family: Proxima-nova !important;
-    font-weight: 300;
+    font-weight: 400 !important;
     font-size: 20px;
     width: 100%;
     text-align: center;
@@ -92,6 +94,8 @@
     margin: auto;
     text-align: center;
     font-size: 1rem;
+    color: #c4c4c4;
+    font-weight: 400 !important;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {

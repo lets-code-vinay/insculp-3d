@@ -28,14 +28,14 @@
   font-size: 1.5rem;
 }
 
-.header .mobile-menu {
-  display: none !important;
-}
-
 @media only screen and (min-width: 260px) and (max-width: 480px) {
-  .header .mobile-menu {
-    display: inline-block !important;
-    margin-top: -2%;
+  .header {
+    width: 92%;
+    margin: auto;
+    position: fixed;
+    top: 5%;
+    left: 4.5%;
+    z-index: 99;
   }
   .header .logo {
     width: 32px;

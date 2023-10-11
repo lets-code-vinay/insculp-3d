@@ -95,6 +95,7 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
 
       {/* ---Mobile view -- */}
       <Box className="mobile-arrow-container">
+        
         <Box
           className={`back-arrow ${
             currentPageNo == 1 ? "default-cursor" : "pointer"

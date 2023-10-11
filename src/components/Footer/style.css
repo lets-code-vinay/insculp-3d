@@ -88,10 +88,10 @@
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
   .footer {
-    width: 97%;
+    width: 99%;
     position: fixed;
-    bottom: 7%;
-    left: 4%;
+    bottom: 1%;
+    left: 4.5%;
     z-index: 99;
   }
   .footer .title {
@@ -110,8 +110,11 @@
   .footer .mobile-arrow-container {
     display: flex !important;
     justify-content: space-between;
-    margin-top: -90%;
     width: 94%;
+    position: fixed;
+    top: 50%;
+    left: 4%;
+    width: 92%;
   }
 
   .footer .mobile-arrow-container .back-arrow {

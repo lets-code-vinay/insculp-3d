@@ -41,6 +41,7 @@
   font-weight: 300 !important;
   margin-top: 2% !important;
   font-size: 1.2rem;
+  color: #c4c4c4;
 }
 
 .page6 .description .title {
@@ -64,7 +65,7 @@
   }
 
   .page6 .img-section {
-    background-image: url("../../assets/images/p6.jpg");
+    background-image: url("../../assets/images/p6.svg");
     background-position: center;
     background-repeat: no-repeat;
     height: 60vh;
@@ -87,11 +88,12 @@
   .page6 .mobile-view-description .sub-title {
     font-family: Proxima-nova !important;
     text-align: end;
-    width: 87%;
+    width: 90%;
     font-weight: 300 !important;
     font-size: 1rem;
     margin: auto;
     padding-top: 4%;
+    color: #c4c4c4;
 
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -103,7 +105,7 @@
   .page6 .mobile-view-description .title {
     text-align: end;
     letter-spacing: 7px;
-    width: 90%;
+    width: 92%;
     margin: 0 auto;
     font-size: 1.3rem;
     padding-top: 12%;

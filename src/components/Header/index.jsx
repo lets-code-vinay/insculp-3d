@@ -16,7 +16,6 @@ const Header = () => {
         >
           INSCULP 3D
         </Typography>
-        <MenuIcon color="primary" className="mobile-menu" />
       </Box>
     </Box>
   );
