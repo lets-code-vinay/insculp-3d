@@ -8,6 +8,8 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import FB_ICON from "../../assets/icons/fb.svg";
 import ContactPopover from "../ContactPopover";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import CallIcon from "@mui/icons-material/Call";
 import "./style.css";
 
 const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
@@ -39,13 +41,21 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
         >
           {currentPage}
         </Typography>
-        <Box className="no-grow icons">
-          <IconButton>
-            <InstagramIcon color="primary" className="pointer" />
-          </IconButton>
-          <IconButton>
-            <img src={FB_ICON} alt="fb-icon" className="pointer" />
-          </IconButton>
+
+        <Box className="no-grow mobile-socials">
+          <Box className="contact-icons-container">
+            <WhatsAppIcon color="whatsapp" fontSize="2rem" />
+            <CallIcon color="primary" fontSize="2rem" />
+          </Box>
+
+          <Box className="no-grow icons">
+            <IconButton>
+              <InstagramIcon color="primary" className="pointer" />
+            </IconButton>
+            <IconButton>
+              <img src={FB_ICON} alt="fb-icon" className="pointer" />
+            </IconButton>
+          </Box>
         </Box>
 
         <Box className="flex-grow"></Box>
@@ -95,7 +105,6 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
 
       {/* ---Mobile view -- */}
       <Box className="mobile-arrow-container">
-        
         <Box
           className={`back-arrow ${
             currentPageNo == 1 ? "default-cursor" : "pointer"

@@ -14,7 +14,7 @@ const LandingPage = () => {
       <Box className="image-container">
         <Box className="landing-text">
           <Typography className="intro-text" variant="body1" color={"primary"}>
-            Crafting forms
+            CRAFTING FORMS
           </Typography>
           <Typography className="bold-title" variant="h1" color={"primary"}>
             Coming Soon
@@ -29,7 +29,7 @@ const LandingPage = () => {
 
       <Box className="landing-text-mobile">
         <Typography className="intro-text" variant="body1" color={"primary"}>
-          Crafting forms
+          CRAFTING FORMS
         </Typography>
         <Typography className="bold-title" variant="h1" color={"primary"}>
           Coming Soon

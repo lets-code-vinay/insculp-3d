@@ -30,18 +30,20 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  width: 80%;
+  width: 89%;
+  margin: auto;
 }
 
 .page10 .description .sub-title {
   font-family: Proxima-nova !important;
   text-align: end;
-  width: 82%;
+  width: 90%;
   float: right;
   font-weight: 300 !important;
   margin-top: 2% !important;
   font-size: 1.2rem;
   color: #c4c4c4;
+  padding-right: 7%;
 }
 
 .page10 .description .title {
@@ -50,6 +52,7 @@
   float: right;
   width: 75%;
   font-size: 2.5rem;
+  padding-right: 6%;
 }
 
 .page10 .mobile-view-description {

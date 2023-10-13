@@ -30,7 +30,8 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  width: 90%;
+  width: 89%;
+  padding-right: 11%;
 }
 
 .page6 .description .sub-title {
@@ -42,6 +43,7 @@
   margin-top: 2% !important;
   font-size: 1.2rem;
   color: #c4c4c4;
+  padding-right: 2%;
 }
 
 .page6 .description .title {

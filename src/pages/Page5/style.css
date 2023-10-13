@@ -35,9 +35,8 @@
 
 .page5 .description .sub-title {
   font-family: Proxima-nova !important;
-  text-align: end;
-  width: 82%;
-  float: right;
+  text-align: start !important;
+  width: 91%;
   font-weight: 300 !important;
   margin-top: 2% !important;
   font-size: 1.2rem;
@@ -45,10 +44,11 @@
 }
 
 .page5 .description .title {
-  text-align: end;
+  text-align: start;
   letter-spacing: 10px;
-  float: right;
-  width: 84%;
+  width: 88%;
+  margin: 0 auto;
+  padding-left: 6%;
   font-size: 2.5rem;
 }
 .page5 .mobile-view-description {
