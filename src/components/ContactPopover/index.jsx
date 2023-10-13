@@ -1,8 +1,6 @@
 import * as React from "react";
 import Popover from "@mui/material/Popover";
 import { Box, IconButton } from "@mui/material";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import CallIcon from "@mui/icons-material/Call";
 import "./style.css";
 import CALL_ICON from "../../assets/icons/call.svg";
 import WA_ICON from "../../assets/icons/wa.svg";

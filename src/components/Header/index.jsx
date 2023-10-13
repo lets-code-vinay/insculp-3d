@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import LOGO from "../../assets/icons/logo.svg";
-import MenuIcon from "@mui/icons-material/Menu";
 import "./style.css";
 
 const Header = () => {

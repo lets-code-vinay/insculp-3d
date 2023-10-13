@@ -12,8 +12,6 @@ import CALL_ICON from "../../assets/icons/phone round.svg";
 import WA_ICON from "../../assets/icons/wa.svg";
 
 import ContactPopover from "../ContactPopover";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import CallIcon from "@mui/icons-material/Call";
 import "./style.css";
 
 const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {

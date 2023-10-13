@@ -163,6 +163,7 @@
   .footer .connect-icon {
     width: 1.5em !important;
     height: 1.5em !important;
+    margin-top: -2%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
