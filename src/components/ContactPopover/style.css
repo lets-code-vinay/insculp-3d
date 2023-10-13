@@ -9,11 +9,17 @@
   background-color: transparent;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  height: 40px;
+  margin-left: 2%;
+  width: 150px;
+  margin: auto;
 }
 
-.contact-icons-container svg {
-  width: 5em !important;
-  height: 3em !important;
+.contact-icons-container .connect-icon {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 260px) and (max-width: 480px) {
@@ -33,5 +39,9 @@
   .contact-icons-container svg {
     width: 2em !important;
     height: 2em !important;
+  }
+
+  .contact-icons-container .disable-mobile {
+    display: none !important;
   }
 }

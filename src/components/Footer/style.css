@@ -114,9 +114,7 @@
 
   .footer .footer-container .contact-icons-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80px;
+    width: 56px;
   }
 
   .footer .footer-container .contact-icons-container svg {
@@ -160,6 +158,11 @@
     justify-content: end;
     margin-right: 12%;
     width: 24px;
+  }
+
+  .footer .connect-icon {
+    width: 1.5em !important;
+    height: 1.5em !important;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {

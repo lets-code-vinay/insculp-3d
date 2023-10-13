@@ -11,7 +11,7 @@ const Header = () => {
         <img className="logo pointer" src={LOGO} alt="logo" />
         <Typography
           className="title pointer letter-spacing"
-          variant="h4"
+          variant="h5"
           color={"primary"}
         >
           INSCULP 3D

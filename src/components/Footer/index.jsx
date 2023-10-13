@@ -7,6 +7,10 @@ import SouthOutlinedIcon from "@mui/icons-material/SouthOutlined";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import FB_ICON from "../../assets/icons/fb.svg";
+import INSTA_ICON from "../../assets/icons/insta.svg";
+import CALL_ICON from "../../assets/icons/phone round.svg";
+import WA_ICON from "../../assets/icons/wa.svg";
+
 import ContactPopover from "../ContactPopover";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import CallIcon from "@mui/icons-material/Call";
@@ -44,13 +48,26 @@ const Footer = ({ onDownArrow, onUpArrow, currentPage, currentPageNo }) => {
 
         <Box className="no-grow mobile-socials">
           <Box className="contact-icons-container">
-            <WhatsAppIcon color="whatsapp" fontSize="2rem" />
-            <CallIcon color="primary" fontSize="2rem" />
+            <IconButton
+              sx={{
+                width: "26px",
+                padding: "4px !important",
+              }}
+            >
+              <img
+                src={WA_ICON}
+                alt="WA-call-icon"
+                className="pointer connect-icon"
+              />
+            </IconButton>
           </Box>
 
           <Box className="no-grow icons">
             <IconButton>
-              <InstagramIcon color="primary" className="pointer" />
+              <img src={CALL_ICON} alt="round-call-icon" className="pointer" />
+            </IconButton>
+            <IconButton>
+              <img src={INSTA_ICON} alt="instagram-icon" className="pointer" />
             </IconButton>
             <IconButton>
               <img src={FB_ICON} alt="fb-icon" className="pointer" />

@@ -36,7 +36,9 @@
 .page5 .description .sub-title {
   font-family: Proxima-nova !important;
   text-align: start !important;
-  width: 91%;
+  display: flex;
+  justify-content: center;
+  margin-left: 9%;
   font-weight: 300 !important;
   margin-top: 2% !important;
   font-size: 1.2rem;

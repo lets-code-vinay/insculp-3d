@@ -1,9 +1,11 @@
 import * as React from "react";
 import Popover from "@mui/material/Popover";
-import { Box } from "@mui/material";
+import { Box, IconButton } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import CallIcon from "@mui/icons-material/Call";
 import "./style.css";
+import CALL_ICON from "../../assets/icons/call.svg";
+import WA_ICON from "../../assets/icons/wa.svg";
 
 export default function ContactPopover(props) {
   const { onClose, anchorEl } = props;
@@ -33,8 +35,20 @@ export default function ContactPopover(props) {
       className="popover-container"
     >
       <Box className="contact-icons-container">
-        <WhatsAppIcon color="whatsapp" fontSize="2rem" />
-        <CallIcon color="primary" fontSize="2rem" />
+        <IconButton>
+          <img
+            src={CALL_ICON}
+            alt="round-call-icon"
+            className="pointer connect-icon disable-mobile"
+          />
+        </IconButton>
+        <IconButton>
+          <img
+            src={WA_ICON}
+            alt="WA-call-icon"
+            className="pointer connect-icon"
+          />
+        </IconButton>
       </Box>
     </Popover>
   );
